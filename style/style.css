@@ -491,5 +491,6 @@ section {
 @media (max-width: 356px) {
     .footer {
         width: 100%;
+        background-position: center;
     }
 }
