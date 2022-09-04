@@ -108,6 +108,12 @@ section {
     vertical-align: middle;
 }
 
+@media (max-width: 375px) {
+    #home {
+        width: 100%;
+    }
+}
+
 .btn {
     padding: 11px 25px;
     border: 1.5px solid var(--color-object);
