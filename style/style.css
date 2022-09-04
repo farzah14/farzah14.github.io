@@ -49,7 +49,7 @@ h1 {
         font-size: 25px;
         padding-bottom: 10px;
         line-height: 50px;
-        padding-right: 100px;
+        /* padding-right: 100px; */
         
     }
 }
@@ -117,7 +117,7 @@ section {
 @media (max-width: 370px) {
     .content p {
         padding-top: 10px;
-        padding-right: 50px;
+        
     }
 }
 
@@ -136,7 +136,7 @@ section {
         width: 100%;
         background-position: center;
         align-items: center;
-        min-width: 410px;
+        /* min-width: 410px; */
         
     }
 }
@@ -530,7 +530,7 @@ footer p {
     footer {
        
         background-position: center;
-        width: 150%;
+        width: 100%;
         position: absolute;
         background-size: auto;
         padding-right: 7px;
