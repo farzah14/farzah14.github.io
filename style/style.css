@@ -481,10 +481,15 @@ section {
 
 
 /* footer */
-section .container {
+footer {
+    background-size: 100vh;
+    background-color: var(--color-bg-2)
+}
+
+footer p {
     font-size: 30px;
     text-align: center;
-    color: white;
+    padding: 10px;
 }
 
 @media (max-width: 356px) {
