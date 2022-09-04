@@ -482,17 +482,32 @@ section {
 
 /* footer */
 footer {
-    min-height: 100vh;
-    min-width: 100vh;
-    background-color: red
+    margin-top: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    width: 100%;
+    background-color: var(--color-bg-2)
 }
 
 footer p {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     padding: 10px;
 }
 
-@media (max-width: 356px) {
-    
+@media (max-width: 370px) {
+    footer p {
+        font-size: 20px;
+        text-align: center;
+        
+    }
+
+    footer {
+        /* width: 100%; */
+        background-position: center;
+        width: 110%;
+        position: absolute;
+        background-size: auto;
+        padding-right: 11px;
+    }
 }
