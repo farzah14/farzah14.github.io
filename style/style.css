@@ -129,7 +129,7 @@ section {
     vertical-align: middle;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 370px) {
     #home {
         width: 100%;
         background-position: center;
