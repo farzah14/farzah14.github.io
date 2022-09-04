@@ -481,17 +481,12 @@ section {
 
 
 /* footer */
-section.footer{
+section .container {
+    font-size: 30px;
     text-align: center;
-    background-color: var(--color-bg-2);
-    font-size: 20px;
-    max-height: 100px;
+    color: white;
 }
 
 @media (max-width: 356px) {
-    section.footer {
-        width: 100%;
-        background-position: center;
-        max-width: 100vh;
-    }
+    
 }
