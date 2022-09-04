@@ -482,8 +482,9 @@ section {
 
 /* footer */
 footer {
-    background-size: 100vh;
-    background-color: var(--color-bg-2)
+    max-height: 100vh;
+    max-width: 100vh;
+    background-color: red
 }
 
 footer p {
