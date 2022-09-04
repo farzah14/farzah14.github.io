@@ -481,7 +481,7 @@ section {
 
 
 /* footer */
- .footer{
+section.footer{
     text-align: center;
     background-color: var(--color-bg-2);
     font-size: 20px;
@@ -489,7 +489,7 @@ section {
 }
 
 @media (max-width: 356px) {
-    .footer {
+    section.footer {
         width: 100%;
         background-position: center;
     }
