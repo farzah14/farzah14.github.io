@@ -482,8 +482,8 @@ section {
 
 /* footer */
 footer {
-    max-height: 100vh;
-    max-width: 100vh;
+    min-height: 100vh;
+    min-width: 100vh;
     background-color: red
 }
 
