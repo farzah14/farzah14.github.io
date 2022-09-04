@@ -117,7 +117,7 @@ section {
 @media (max-width: 370px) {
     .content p {
         padding-top: 10px;
-        padding-right: 100px;
+        padding-right: 50px;
     }
 }
 
@@ -530,9 +530,10 @@ footer p {
     footer {
        
         background-position: center;
-        width: 110%;
+        width: 150%;
         position: absolute;
         background-size: auto;
         padding-right: 7px;
+
     }
 }
