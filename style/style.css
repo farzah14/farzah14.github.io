@@ -111,6 +111,8 @@ section {
 @media (max-width: 375px) {
     #home {
         width: 100%;
+        background-position: center;
+        align-items: center;
     }
 }
 
@@ -484,4 +486,10 @@ section {
     background-color: var(--color-bg-2);
     font-size: 20px;
     max-height: 100px;
+}
+
+@media (max-width: 356px) {
+    .footer {
+        width: 100%;
+    }
 }
