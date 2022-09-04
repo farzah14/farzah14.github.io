@@ -44,6 +44,15 @@ h1 {
     letter-spacing: 1px;
 }
 
+@media (max-width: 370px) {
+    h1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+        line-height: 50px;
+        
+    }
+}
+
 .content h1 span {
     text-transform: lowercase;
 }
@@ -61,9 +70,13 @@ p {
 
 
 
+
+
 img {
     width: 100%;
 }
+
+
 
 section {
     padding: 90px 0;
@@ -87,6 +100,8 @@ section {
     align-items: center;
 }
 
+
+
 #home .content {
     max-width: 500px;
 }
@@ -96,6 +111,12 @@ section {
     letter-spacing: 1px;
     font-size: 20px
     
+}
+
+@media (max-width: 370px) {
+    .content p {
+        padding-top: 10px;
+    }
 }
 
 #home p::before {
@@ -113,6 +134,7 @@ section {
         width: 100%;
         background-position: center;
         align-items: center;
+        min-width: 410px;
     }
 }
 
